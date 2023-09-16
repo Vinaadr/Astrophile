@@ -1,2 +1,2 @@
-# Atrophile
+# Astrophile
 Gemar benda langit
