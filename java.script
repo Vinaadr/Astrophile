@@ -12,7 +12,7 @@ const planets = [
 
 // Fungsi untuk menampilkan informasi planet-planet
 function displayPlanets() {
-  console.log('Informasi tentang Planet-planet dalam Tata Surya:');
+  console.log('Sedikit informasi tentang Planet-planet dalam Tata Surya:');
   planets.forEach(planet => {
     console.log(Nama: ${planet.name}, Jarak dari Matahari: ${planet.distanceFromSun});
   });
