@@ -1,0 +1,22 @@
+// Array berisi informasi tentang beberapa planet dalam tata surya
+const planets = [
+  { name: 'Merkurius', distanceFromSun: '57.9 juta km' },
+  { name: 'Venus', distanceFromSun: '108.2 juta km' },
+  { name: 'Bumi', distanceFromSun: '149.6 juta km' },
+  { name: 'Mars', distanceFromSun: '227.9 juta km' },
+  { name: 'Jupiter', distanceFromSun: '778.3 juta km' },
+  { name: 'Saturnus', distanceFromSun: '1.4 miliar km' },
+  { name: 'Uranus', distanceFromSun: '2.9 miliar km' },
+  { name: 'Neptunus', distanceFromSun: '4.5 miliar km' }
+];
+
+// Fungsi untuk menampilkan informasi planet-planet
+function displayPlanets() {
+  console.log('Informasi tentang Planet-planet dalam Tata Surya:');
+  planets.forEach(planet => {
+    console.log(Nama: ${planet.name}, Jarak dari Matahari: ${planet.distanceFromSun});
+  });
+}
+
+// Memanggil fungsi untuk menampilkan informasi planet-planet
+displayPlanets();
